@@ -1,24 +1,16 @@
 import React from "react";
-import { LoadingOutlined } from "@ant-design/icons";
-import { Spin } from "antd";
+// import { LoadingOutlined } from "@ant-design/icons";
+// import { Spin } from "antd";
 import { Box, Text } from "@chakra-ui/react";
 // import { useColorMode, useCurrentUser } from "../../helpers";
-const antIcon = (color) => (
-  <LoadingOutlined
-    style={{
-      fontSize: 24,
-      color: color || "",
-    }}
-    spin
-  />
-);
+
 const Spinner = ({ message, ...rest }) => {
   // const { isDarkMode } = useColorMode();
   // let color = isDarkMode ? "grey" : "#161616";
   // const { isLoggedIn } = useCurrentUser();
   return (
     <Box {...rest} textAlign={"center"}>
-      <Spin indicator={antIcon('#000')} />
+      {/* <Spin indicator={antIcon('#000')} /> */}
       {message && <Text mt="10px">{message}</Text>}
     </Box>
   );
