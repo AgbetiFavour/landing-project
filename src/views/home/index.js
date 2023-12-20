@@ -11,7 +11,7 @@ import { OpenAccount } from "./Components/OpenAccount";
 import { TransferUi } from "./Components/TransferUi";
 import { CardUi } from "./Components/CardUI";
 import { JoinUs } from "./Components/JoinUs";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 import Seo from "../../components/Seo";
 import { Business } from "./Components/Business";
 import banner from "../../assets/fam.png"
