@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../public/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../public/fonts/GothamMedium.ttf");
+  /* src: url("../public/fonts/Poppins-Medium.ttf"); */
+}
+@font-face {
+  font-family: Poppin;
+  src: url("../public/fonts/Poppins-Medium.ttf");
+  /* src: url("../public/fonts/Poppins-Medium.ttf"); */
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url("../public/fonts/GothamMedium.ttf");
+}
+@font-face {
+  font-family: workSans;
+  src: url("../public/fonts/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: workSans-bold;
+  src: url("../public/fonts/WorkSans-Bold.ttf");
+}
+@font-face {
+  font-family: pluto;
+  src: url("../public/fonts/Montserrat-Medium.ttf");
+  /* src: url("../public/fonts/Pluto.ttf"); */
+}
+/* @font-face {
+  font-family: pluto;
+  src: url("https://fonts.cdnfonts.com/css/pluto-tv-sans-v10");
+} */
+/* @font-face {
+    font-family: Roboto-light;
+    src: url("../public/fonts/Roboto-Light.ttf");
+  } */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "GothamMedium", Courier, monospace;
+  transition: all 0.2s ease;
+}
+
+/* .css-84zodg>*:not(style)~*:not(style) {
+  -webkit-margin-start: 0px !important; 
+  margin-inline-start: 0px !important;
+} */
+
+/* .css-kbb9ug {
+  display: none !important;
+} */
+
+.html {
+  scroll-behavior: smooth;
+}
+
+
+a:hover {
+  color: #fff !important;
+}
+.sideBar {
+  width: 251px;
+  padding: 0.5%;
+    }
+
+@media  (max-width: 1299px) {
+  .sideBar {
+    width: 300px;
+    padding: 2%;
+ 
+  }
+  .sideBarListContent{
+    font-size: 14px !important;
+    line-height: 100%;
+  }
+}

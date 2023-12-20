@@ -1,0 +1,9 @@
+.nav-link {
+    margin-left: 60px;
+}
+/* Mobile */
+@media (max-width: 640px) {
+    .nav-link {
+        margin-left: 0;
+    }
+}

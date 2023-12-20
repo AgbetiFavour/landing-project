@@ -1,0 +1,33 @@
+.focusedcard {
+  transform: perspective(500px) translateZ(200px);
+}
+
+
+.ant-drawer-header {
+  /* background-color: #161616; */
+  /* border-radius: 0; */
+  border:"none";
+  display: none !important;
+  
+}
+
+/* .ant-drawer-title {
+background: #161616;
+border:"none";
+} */
+
+.ant-drawer-body {
+  background-color: #161616;
+  height: calc(100vh - 55px);
+}
+
+.chakra-accordion__item{
+  border: none;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+input:disabled{
+  color:#4c4b4b;
+}
